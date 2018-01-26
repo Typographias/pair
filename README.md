@@ -4,6 +4,8 @@ A simple command line tool to generate kerning pairs from arguments
 
 ## Usage
 
+### with a string
+
 `pair abcde`
 
 returns:
@@ -27,6 +29,27 @@ You can pipe it to the clipboard:
 `pair abcde | pbcopy`
 
 And then paste it in your font or text editor.
+
+### with a file
+
+If you have a test.txt file with this content
+
+`xyz`
+
+you can do:
+
+`pair test.txt`
+
+it will return:
+
+```
+x
+xxxxxx yxyyxy zxzzxz
+y
+xyxxyx yyyyyy zyzzyz
+z
+xzxxzx yzyyzy zzzzzz
+```
 
 ## Installing
 
