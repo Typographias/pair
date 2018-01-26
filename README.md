@@ -1,14 +1,14 @@
-#pair
+# pair
 
 A simple command line tool to generate kerning pairs from arguments
 
-##Usage
+## Usage
 
 `pair abcde`
 
 returns:
 
-`
+```
 a
 aaaaaa babbab caccac daddad eaeeae
 b
@@ -20,7 +20,7 @@ adaada bdbbdb cdccdc dddddd edeede
 e
 aeaaea bebbeb ceccec dedded eeeeee
 
-`
+```
 
 You can pipe it to the clipboard:
 
@@ -28,7 +28,7 @@ You can pipe it to the clipboard:
 
 And then paste it in your font or text editor.
 
-##Installing
+## Installing
 
 Once you have golang installed you can get it with:
 
